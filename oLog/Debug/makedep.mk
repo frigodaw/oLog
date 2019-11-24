@@ -2,7 +2,9 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
-Init.c
+Display\OLED_Screen.c
+
+Display\OLED.c
 
 Libs\U8g2\u8g2_bitmap.c
 
@@ -196,5 +198,9 @@ Libs\U8g2\u8x8_u8toa.c
 
 main.c
 
-OLED.c
+System\Interrupts.c
+
+System\Task.c
+
+System\Time.c
 

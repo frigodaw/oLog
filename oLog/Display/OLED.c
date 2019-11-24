@@ -9,6 +9,10 @@
 #include "OLED.h"
 #include "SPI.h"
 
+/* Global variable to store OLED setup and u8g2 parameters */
+u8g2_t u8g2;
+
+/* U8g2 function called during OLED setup */
 uint8_t u8x8_avr_delay(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr)
 {
 	uint8_t cycles;
@@ -53,6 +57,7 @@ uint8_t u8x8_avr_delay(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr
 }
 
 
+/* U8g2 function called during OLED setup */
 uint8_t u8x8_avr_gpio_and_delay(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr)
 {
 	// Re-use library for delays
@@ -116,4 +121,12 @@ uint8_t u8x8_avr_gpio_and_delay(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void
 		}break;	
 	}
 	return 1;
+}
+
+/* Function called to initialize OLED display */
+void Init_Oled(u8g2_t *u8g2)
+{
+	u8g2_Setup_ssd1306_128x64_noname_f( u8g2, U8G2_R0, u8x8_byte_4wire_sw_spi, u8x8_avr_gpio_and_delay );
+	u8g2_InitDisplay(u8g2);
+	u8g2_SetPowerSave(u8g2, 0);
 }

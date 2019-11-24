@@ -6,27 +6,41 @@
  */ 
 
 #include <avr/io.h>
-#include <util/delay.h>
-#include "OLED.h"
-#include "Init.h"
-#include "u8g2.h"
+#include "Task.h"
+#include "CommonTypes.h"
 
-u8g2_t u8g2;
+extern task_t taskIsActive;
 
 int main(void)
 {
 	/* Call init function with all modules */
-	Init_Main();
+	Task_Init();
 	
-    /* Replace with your application code */
+    /* Main loop with simple scheduler */
     while (1) 
     {
-		u8g2_ClearBuffer(&u8g2);
-		u8g2_SetFont(&u8g2, u8g2_font_helvR08_tf  );
-		u8g2_DrawStr(&u8g2, 40, 30, "oLog GPS"); 
-		u8g2_SendBuffer(&u8g2);
+		if(TRUE == taskIsActive.Task_10ms)
+		{
+			Task_10ms();
+			taskIsActive.Task_10ms = FALSE;
+		}
 		
-
+		if(TRUE == taskIsActive.Task_100ms)
+		{
+			Task_100ms();
+			taskIsActive.Task_100ms = FALSE;
+		}
+		
+		if(TRUE == taskIsActive.Task_1s)
+		{
+			Task_1s();
+			taskIsActive.Task_1s = FALSE;
+		}
+		
+		if(TIME_ENTER_IDLE_TASK == (taskIsActive.Task_10ms | taskIsActive.Task_100ms | taskIsActive.Task_1s))
+		{
+			Task_Idle();
+		}
     }
 }
 

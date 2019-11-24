@@ -5,43 +5,63 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
                               Libs/U8g2/u8g2_polygon.o (__divmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                              OLED.o (__udivmodsi4)
+                              Display/OLED.o (__udivmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o (exit)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
-                              Libs/U8g2/u8g2_input_value.o (__do_copy_data)
+                              Display/OLED_Screen.o (__do_copy_data)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
-                              Libs/U8g2/u8g2_d_memory.o (__do_clear_bss)
+                              Display/OLED_Screen.o (__do_clear_bss)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
-                              Libs/U8g2/u8x8_u16toa.o (__umulhisi3)
+                              Display/OLED.o (__umulhisi3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
                               Libs/U8g2/u8g2_buffer.o (memset)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(putchar.o)
                               Libs/U8g2/u8x8_d_stdio.o (putchar)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                              Display/OLED_Screen.o (sprintf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o) (vfprintf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(putchar.o) (fputc)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(putchar.o) (__iob)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o) (__prologue_saves__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o) (__epilogue_restores__)
 
 Allocating common symbols
 Common symbol       size              file
 
+timer               0x7               System/Time.o
 bitmap              0x80              Libs/U8g2/u8x8_d_stdio.o
+cnt                 0x4               System/Interrupts.o
+buff                0x10              Display/OLED_Screen.o
+taskIsActive        0x1               System/Task.o
 u8g2_pg             0x42              Libs/U8g2/u8g2_polygon.o
-u8g2                0x66              main.o
+u8g2                0x66              Display/OLED.o
 __iob               0x6               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+buff_cnt            0x14              Display/OLED_Screen.o
 
 Discarded input sections
 
  .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
  .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .text          0x00000000        0x0 Init.o
- .data          0x00000000        0x0 Init.o
- .bss           0x00000000        0x0 Init.o
- .text.Init_SPI
-                0x00000000        0x2 Init.o
+ .text          0x00000000        0x0 Display/OLED_Screen.o
+ .data          0x00000000        0x0 Display/OLED_Screen.o
+ .bss           0x00000000        0x0 Display/OLED_Screen.o
+ .text          0x00000000        0x0 Display/OLED.o
+ .data          0x00000000        0x0 Display/OLED.o
+ .bss           0x00000000        0x0 Display/OLED.o
  .text          0x00000000        0x0 Libs/U8g2/u8g2_bitmap.o
  .data          0x00000000        0x0 Libs/U8g2/u8g2_bitmap.o
  .bss           0x00000000        0x0 Libs/U8g2/u8g2_bitmap.o
@@ -7319,9 +7339,15 @@ Discarded input sections
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .text          0x00000000        0x0 OLED.o
- .data          0x00000000        0x0 OLED.o
- .bss           0x00000000        0x0 OLED.o
+ .text          0x00000000        0x0 System/Interrupts.o
+ .data          0x00000000        0x0 System/Interrupts.o
+ .bss           0x00000000        0x0 System/Interrupts.o
+ .text          0x00000000        0x0 System/Task.o
+ .data          0x00000000        0x0 System/Task.o
+ .bss           0x00000000        0x0 System/Task.o
+ .text          0x00000000        0x0 System/Time.o
+ .data          0x00000000        0x0 System/Time.o
+ .bss           0x00000000        0x0 System/Time.o
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
@@ -7455,17 +7481,57 @@ Discarded input sections
  .text.avr-libc
                 0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(putchar.o)
  .comment       0x00000000       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(putchar.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
- .text.avr-libc
-                0x00000000       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
- .comment       0x00000000       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
  .comment       0x00000000       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
  COMMON         0x00000000        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
 
 Memory Configuration
 
@@ -7483,7 +7549,8 @@ Linker script and memory map
 
 Address of section .data set to 0x800100
 LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
-LOAD Init.o
+LOAD Display/OLED_Screen.o
+LOAD Display/OLED.o
 LOAD Libs/U8g2/u8g2_bitmap.o
 LOAD Libs/U8g2/u8g2_box.o
 LOAD Libs/U8g2/u8g2_buffer.o
@@ -7580,7 +7647,9 @@ LOAD Libs/U8g2/u8x8_string.o
 LOAD Libs/U8g2/u8x8_u16toa.o
 LOAD Libs/U8g2/u8x8_u8toa.o
 LOAD main.o
-LOAD OLED.o
+LOAD System/Interrupts.o
+LOAD System/Task.o
+LOAD System/Time.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
 END GROUP
@@ -7690,7 +7759,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x1df6
+.text           0x00000000     0x2602
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -7763,7 +7832,6 @@ END GROUP
                 0x00000936                __vector_23
                 0x00000936                __vector_25
                 0x00000936                __vector_11
-                0x00000936                __vector_13
                 0x00000936                __vector_17
                 0x00000936                __vector_19
                 0x00000936                __vector_7
@@ -7781,205 +7849,252 @@ END GROUP
                 0x00000936                __vector_20
                 0x0000093a                . = ALIGN (0x2)
  *(.text.*)
- .text.Init_Oled
-                0x0000093a       0x28 Init.o
-                0x0000093a                Init_Oled
- .text.Init_Main
-                0x00000962        0x6 Init.o
-                0x00000962                Init_Main
- .text.u8g2_send_buffer
-                0x00000968       0x98 Libs/U8g2/u8g2_buffer.o
- .text.u8g2_ClearBuffer
-                0x00000a00       0x2c Libs/U8g2/u8g2_buffer.o
-                0x00000a00                u8g2_ClearBuffer
- .text.u8g2_SendBuffer
-                0x00000a2c       0x16 Libs/U8g2/u8g2_buffer.o
-                0x00000a2c                u8g2_SendBuffer
- .text.u8g2_m_16_8_f
-                0x00000a42        0xc Libs/U8g2/u8g2_d_memory.o
-                0x00000a42                u8g2_m_16_8_f
- .text.u8g2_Setup_ssd1306_128x64_noname_f
-                0x00000a4e       0x56 Libs/U8g2/u8g2_d_setup.o
-                0x00000a4e                u8g2_Setup_ssd1306_128x64_noname_f
- .text.u8g2_font_get_word
-                0x00000aa4       0x18 Libs/U8g2/u8g2_font.o
- .text.u8g2_add_vector_y
-                0x00000abc       0x1c Libs/U8g2/u8g2_font.o
- .text.u8g2_add_vector_x
-                0x00000ad8       0x1c Libs/U8g2/u8g2_font.o
- .text.u8g2_font_calc_vref_font
-                0x00000af4        0x4 Libs/U8g2/u8g2_font.o
-                0x00000af4                u8g2_font_calc_vref_font
- .text.u8g2_read_font_info
-                0x00000af8       0xbe Libs/U8g2/u8g2_font.o
-                0x00000af8                u8g2_read_font_info
- .text.u8g2_font_decode_get_unsigned_bits
-                0x00000bb6       0x60 Libs/U8g2/u8g2_font.o
-                0x00000bb6                u8g2_font_decode_get_unsigned_bits
- .text.u8g2_font_setup_decode
-                0x00000c16       0x5e Libs/U8g2/u8g2_font.o
- .text.u8g2_font_decode_get_signed_bits
-                0x00000c74       0x1e Libs/U8g2/u8g2_font.o
-                0x00000c74                u8g2_font_decode_get_signed_bits
- .text.u8g2_font_decode_len
-                0x00000c92      0x134 Libs/U8g2/u8g2_font.o
-                0x00000c92                u8g2_font_decode_len
- .text.u8g2_font_decode_glyph
-                0x00000dc6      0x174 Libs/U8g2/u8g2_font.o
-                0x00000dc6                u8g2_font_decode_glyph
- .text.u8g2_font_get_glyph_data
-                0x00000f3a      0x126 Libs/U8g2/u8g2_font.o
-                0x00000f3a                u8g2_font_get_glyph_data
- .text.u8g2_DrawGlyph
-                0x00001060       0x84 Libs/U8g2/u8g2_font.o
-                0x00001060                u8g2_DrawGlyph
- .text.u8g2_draw_string
-                0x000010e4       0x94 Libs/U8g2/u8g2_font.o
- .text.u8g2_DrawStr
-                0x00001178       0x14 Libs/U8g2/u8g2_font.o
-                0x00001178                u8g2_DrawStr
- .text.u8g2_UpdateRefHeight
-                0x0000118c       0x86 Libs/U8g2/u8g2_font.o
-                0x0000118c                u8g2_UpdateRefHeight
- .text.u8g2_SetFontPosBaseline
-                0x00001212        0xc Libs/U8g2/u8g2_font.o
-                0x00001212                u8g2_SetFontPosBaseline
- .text.u8g2_SetFont
-                0x0000121e       0x2a Libs/U8g2/u8g2_font.o
-                0x0000121e                u8g2_SetFont
- .text.u8g2_draw_hv_line_2dir
-                0x00001248       0x1a Libs/U8g2/u8g2_hvline.o
-                0x00001248                u8g2_draw_hv_line_2dir
- .text.u8g2_DrawHVLine
-                0x00001262       0xde Libs/U8g2/u8g2_hvline.o
-                0x00001262                u8g2_DrawHVLine
- .text.u8g2_is_intersection_decision_tree
-                0x00001340       0x28 Libs/U8g2/u8g2_intersection.o
-                0x00001340                u8g2_is_intersection_decision_tree
- .text.u8g2_IsIntersection
-                0x00001368       0x36 Libs/U8g2/u8g2_intersection.o
-                0x00001368                u8g2_IsIntersection
- .text.u8g2_ll_hvline_vertical_top_lsb
-                0x0000139e       0xc6 Libs/U8g2/u8g2_ll_hvline.o
-                0x0000139e                u8g2_ll_hvline_vertical_top_lsb
- .text.u8g2_update_dimension_common
-                0x00001464       0x76 Libs/U8g2/u8g2_setup.o
- .text.u8g2_update_dimension_r0
-                0x000014da        0x6 Libs/U8g2/u8g2_setup.o
-                0x000014da                u8g2_update_dimension_r0
- .text.u8g2_apply_clip_window
-                0x000014e0       0x5a Libs/U8g2/u8g2_setup.o
- .text.u8g2_update_page_win_r0
-                0x0000153a       0x18 Libs/U8g2/u8g2_setup.o
-                0x0000153a                u8g2_update_page_win_r0
- .text.u8g2_draw_l90_r0
-                0x00001552        0xa Libs/U8g2/u8g2_setup.o
-                0x00001552                u8g2_draw_l90_r0
- .text.u8g2_SetMaxClipWindow
-                0x0000155c       0x30 Libs/U8g2/u8g2_setup.o
-                0x0000155c                u8g2_SetMaxClipWindow
- .text.u8g2_SetupBuffer
-                0x0000158c       0x5a Libs/U8g2/u8g2_setup.o
-                0x0000158c                u8g2_SetupBuffer
- .text.u8x8_ascii_next
-                0x000015e6       0x1a Libs/U8g2/u8x8_8x8.o
-                0x000015e6                u8x8_ascii_next
- .text.u8x8_utf8_init
-                0x00001600        0x6 Libs/U8g2/u8x8_8x8.o
-                0x00001600                u8x8_utf8_init
- .text.u8x8_byte_SetDC
-                0x00001606       0x16 Libs/U8g2/u8x8_byte.o
-                0x00001606                u8x8_byte_SetDC
- .text.u8x8_byte_SendBytes
-                0x0000161c       0x14 Libs/U8g2/u8x8_byte.o
-                0x0000161c                u8x8_byte_SendBytes
- .text.u8x8_byte_SendByte
-                0x00001630       0x20 Libs/U8g2/u8x8_byte.o
-                0x00001630                u8x8_byte_SendByte
- .text.u8x8_byte_4wire_sw_spi
-                0x00001650      0x154 Libs/U8g2/u8x8_byte.o
-                0x00001650                u8x8_byte_4wire_sw_spi
- .text.u8x8_cad_SendCmd
-                0x000017a4       0x16 Libs/U8g2/u8x8_cad.o
-                0x000017a4                u8x8_cad_SendCmd
- .text.u8x8_cad_SendArg
-                0x000017ba       0x16 Libs/U8g2/u8x8_cad.o
-                0x000017ba                u8x8_cad_SendArg
- .text.u8x8_cad_SendData
-                0x000017d0       0x14 Libs/U8g2/u8x8_cad.o
-                0x000017d0                u8x8_cad_SendData
- .text.u8x8_cad_StartTransfer
-                0x000017e4       0x16 Libs/U8g2/u8x8_cad.o
-                0x000017e4                u8x8_cad_StartTransfer
- .text.u8x8_cad_EndTransfer
-                0x000017fa       0x16 Libs/U8g2/u8x8_cad.o
-                0x000017fa                u8x8_cad_EndTransfer
- .text.u8x8_cad_SendSequence
-                0x00001810       0xa6 Libs/U8g2/u8x8_cad.o
-                0x00001810                u8x8_cad_SendSequence
- .text.u8x8_cad_001
-                0x000018b6       0x7e Libs/U8g2/u8x8_cad.o
-                0x000018b6                u8x8_cad_001
- .text.u8x8_d_helper_display_setup_memory
-                0x00001934       0x10 Libs/U8g2/u8x8_display.o
-                0x00001934                u8x8_d_helper_display_setup_memory
- .text.u8x8_d_helper_display_init
-                0x00001944       0x72 Libs/U8g2/u8x8_display.o
-                0x00001944                u8x8_d_helper_display_init
- .text.u8x8_DrawTile
-                0x000019b6       0x46 Libs/U8g2/u8x8_display.o
-                0x000019b6                u8x8_DrawTile
- .text.u8x8_SetupMemory
-                0x000019fc       0x16 Libs/U8g2/u8x8_display.o
-                0x000019fc                u8x8_SetupMemory
- .text.u8x8_InitDisplay
-                0x00001a12       0x16 Libs/U8g2/u8x8_display.o
-                0x00001a12                u8x8_InitDisplay
- .text.u8x8_SetPowerSave
-                0x00001a28       0x16 Libs/U8g2/u8x8_display.o
-                0x00001a28                u8x8_SetPowerSave
- .text.u8x8_RefreshDisplay
-                0x00001a3e       0x16 Libs/U8g2/u8x8_display.o
-                0x00001a3e                u8x8_RefreshDisplay
- .text.u8x8_d_ssd1306_sh1106_generic
-                0x00001a54      0x112 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .text.u8x8_d_ssd1306_128x64_noname
-                0x00001b66       0x46 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
-                0x00001b66                u8x8_d_ssd1306_128x64_noname
- .text.u8x8_gpio_call
-                0x00001bac       0x12 Libs/U8g2/u8x8_gpio.o
-                0x00001bac                u8x8_gpio_call
- .text.u8x8_dummy_cb
-                0x00001bbe        0x4 Libs/U8g2/u8x8_setup.o
-                0x00001bbe                u8x8_dummy_cb
- .text.u8x8_SetupDefaults
-                0x00001bc2       0x30 Libs/U8g2/u8x8_setup.o
-                0x00001bc2                u8x8_SetupDefaults
- .text.u8x8_Setup
-                0x00001bf2       0x4c Libs/U8g2/u8x8_setup.o
-                0x00001bf2                u8x8_Setup
- .text.main     0x00001c3e       0x32 main.o
-                0x00001c3e                main
+ .text.OLED_FunScreen
+                0x0000093a       0xc0 Display/OLED_Screen.o
+                0x0000093a                OLED_FunScreen
  .text.u8x8_avr_delay
-                0x00001c70       0x92 OLED.o
-                0x00001c70                u8x8_avr_delay
+                0x000009fa       0x92 Display/OLED.o
+                0x000009fa                u8x8_avr_delay
  .text.u8x8_avr_gpio_and_delay
-                0x00001d02       0x80 OLED.o
-                0x00001d02                u8x8_avr_gpio_and_delay
+                0x00000a8c       0x80 Display/OLED.o
+                0x00000a8c                u8x8_avr_gpio_and_delay
+ .text.Init_Oled
+                0x00000b0c       0x2a Display/OLED.o
+                0x00000b0c                Init_Oled
+ .text.u8g2_send_buffer
+                0x00000b36       0x98 Libs/U8g2/u8g2_buffer.o
+ .text.u8g2_ClearBuffer
+                0x00000bce       0x2c Libs/U8g2/u8g2_buffer.o
+                0x00000bce                u8g2_ClearBuffer
+ .text.u8g2_SendBuffer
+                0x00000bfa       0x16 Libs/U8g2/u8g2_buffer.o
+                0x00000bfa                u8g2_SendBuffer
+ .text.u8g2_m_16_8_f
+                0x00000c10        0xc Libs/U8g2/u8g2_d_memory.o
+                0x00000c10                u8g2_m_16_8_f
+ .text.u8g2_Setup_ssd1306_128x64_noname_f
+                0x00000c1c       0x56 Libs/U8g2/u8g2_d_setup.o
+                0x00000c1c                u8g2_Setup_ssd1306_128x64_noname_f
+ .text.u8g2_font_get_word
+                0x00000c72       0x18 Libs/U8g2/u8g2_font.o
+ .text.u8g2_add_vector_y
+                0x00000c8a       0x1c Libs/U8g2/u8g2_font.o
+ .text.u8g2_add_vector_x
+                0x00000ca6       0x1c Libs/U8g2/u8g2_font.o
+ .text.u8g2_font_calc_vref_font
+                0x00000cc2        0x4 Libs/U8g2/u8g2_font.o
+                0x00000cc2                u8g2_font_calc_vref_font
+ .text.u8g2_read_font_info
+                0x00000cc6       0xbe Libs/U8g2/u8g2_font.o
+                0x00000cc6                u8g2_read_font_info
+ .text.u8g2_font_decode_get_unsigned_bits
+                0x00000d84       0x60 Libs/U8g2/u8g2_font.o
+                0x00000d84                u8g2_font_decode_get_unsigned_bits
+ .text.u8g2_font_setup_decode
+                0x00000de4       0x5e Libs/U8g2/u8g2_font.o
+ .text.u8g2_font_decode_get_signed_bits
+                0x00000e42       0x1e Libs/U8g2/u8g2_font.o
+                0x00000e42                u8g2_font_decode_get_signed_bits
+ .text.u8g2_font_decode_len
+                0x00000e60      0x134 Libs/U8g2/u8g2_font.o
+                0x00000e60                u8g2_font_decode_len
+ .text.u8g2_font_decode_glyph
+                0x00000f94      0x174 Libs/U8g2/u8g2_font.o
+                0x00000f94                u8g2_font_decode_glyph
+ .text.u8g2_font_get_glyph_data
+                0x00001108      0x126 Libs/U8g2/u8g2_font.o
+                0x00001108                u8g2_font_get_glyph_data
+ .text.u8g2_DrawGlyph
+                0x0000122e       0x84 Libs/U8g2/u8g2_font.o
+                0x0000122e                u8g2_DrawGlyph
+ .text.u8g2_draw_string
+                0x000012b2       0x94 Libs/U8g2/u8g2_font.o
+ .text.u8g2_DrawStr
+                0x00001346       0x14 Libs/U8g2/u8g2_font.o
+                0x00001346                u8g2_DrawStr
+ .text.u8g2_UpdateRefHeight
+                0x0000135a       0x86 Libs/U8g2/u8g2_font.o
+                0x0000135a                u8g2_UpdateRefHeight
+ .text.u8g2_SetFontPosBaseline
+                0x000013e0        0xc Libs/U8g2/u8g2_font.o
+                0x000013e0                u8g2_SetFontPosBaseline
+ .text.u8g2_SetFont
+                0x000013ec       0x2a Libs/U8g2/u8g2_font.o
+                0x000013ec                u8g2_SetFont
+ .text.u8g2_draw_hv_line_2dir
+                0x00001416       0x1a Libs/U8g2/u8g2_hvline.o
+                0x00001416                u8g2_draw_hv_line_2dir
+ .text.u8g2_DrawHVLine
+                0x00001430       0xde Libs/U8g2/u8g2_hvline.o
+                0x00001430                u8g2_DrawHVLine
+ .text.u8g2_is_intersection_decision_tree
+                0x0000150e       0x28 Libs/U8g2/u8g2_intersection.o
+                0x0000150e                u8g2_is_intersection_decision_tree
+ .text.u8g2_IsIntersection
+                0x00001536       0x36 Libs/U8g2/u8g2_intersection.o
+                0x00001536                u8g2_IsIntersection
+ .text.u8g2_ll_hvline_vertical_top_lsb
+                0x0000156c       0xc6 Libs/U8g2/u8g2_ll_hvline.o
+                0x0000156c                u8g2_ll_hvline_vertical_top_lsb
+ .text.u8g2_update_dimension_common
+                0x00001632       0x76 Libs/U8g2/u8g2_setup.o
+ .text.u8g2_update_dimension_r0
+                0x000016a8        0x6 Libs/U8g2/u8g2_setup.o
+                0x000016a8                u8g2_update_dimension_r0
+ .text.u8g2_apply_clip_window
+                0x000016ae       0x5a Libs/U8g2/u8g2_setup.o
+ .text.u8g2_update_page_win_r0
+                0x00001708       0x18 Libs/U8g2/u8g2_setup.o
+                0x00001708                u8g2_update_page_win_r0
+ .text.u8g2_draw_l90_r0
+                0x00001720        0xa Libs/U8g2/u8g2_setup.o
+                0x00001720                u8g2_draw_l90_r0
+ .text.u8g2_SetMaxClipWindow
+                0x0000172a       0x30 Libs/U8g2/u8g2_setup.o
+                0x0000172a                u8g2_SetMaxClipWindow
+ .text.u8g2_SetupBuffer
+                0x0000175a       0x5a Libs/U8g2/u8g2_setup.o
+                0x0000175a                u8g2_SetupBuffer
+ .text.u8x8_ascii_next
+                0x000017b4       0x1a Libs/U8g2/u8x8_8x8.o
+                0x000017b4                u8x8_ascii_next
+ .text.u8x8_utf8_init
+                0x000017ce        0x6 Libs/U8g2/u8x8_8x8.o
+                0x000017ce                u8x8_utf8_init
+ .text.u8x8_byte_SetDC
+                0x000017d4       0x16 Libs/U8g2/u8x8_byte.o
+                0x000017d4                u8x8_byte_SetDC
+ .text.u8x8_byte_SendBytes
+                0x000017ea       0x14 Libs/U8g2/u8x8_byte.o
+                0x000017ea                u8x8_byte_SendBytes
+ .text.u8x8_byte_SendByte
+                0x000017fe       0x20 Libs/U8g2/u8x8_byte.o
+                0x000017fe                u8x8_byte_SendByte
+ .text.u8x8_byte_4wire_sw_spi
+                0x0000181e      0x154 Libs/U8g2/u8x8_byte.o
+                0x0000181e                u8x8_byte_4wire_sw_spi
+ .text.u8x8_cad_SendCmd
+                0x00001972       0x16 Libs/U8g2/u8x8_cad.o
+                0x00001972                u8x8_cad_SendCmd
+ .text.u8x8_cad_SendArg
+                0x00001988       0x16 Libs/U8g2/u8x8_cad.o
+                0x00001988                u8x8_cad_SendArg
+ .text.u8x8_cad_SendData
+                0x0000199e       0x14 Libs/U8g2/u8x8_cad.o
+                0x0000199e                u8x8_cad_SendData
+ .text.u8x8_cad_StartTransfer
+                0x000019b2       0x16 Libs/U8g2/u8x8_cad.o
+                0x000019b2                u8x8_cad_StartTransfer
+ .text.u8x8_cad_EndTransfer
+                0x000019c8       0x16 Libs/U8g2/u8x8_cad.o
+                0x000019c8                u8x8_cad_EndTransfer
+ .text.u8x8_cad_SendSequence
+                0x000019de       0xa6 Libs/U8g2/u8x8_cad.o
+                0x000019de                u8x8_cad_SendSequence
+ .text.u8x8_cad_001
+                0x00001a84       0x7e Libs/U8g2/u8x8_cad.o
+                0x00001a84                u8x8_cad_001
+ .text.u8x8_d_helper_display_setup_memory
+                0x00001b02       0x10 Libs/U8g2/u8x8_display.o
+                0x00001b02                u8x8_d_helper_display_setup_memory
+ .text.u8x8_d_helper_display_init
+                0x00001b12       0x72 Libs/U8g2/u8x8_display.o
+                0x00001b12                u8x8_d_helper_display_init
+ .text.u8x8_DrawTile
+                0x00001b84       0x46 Libs/U8g2/u8x8_display.o
+                0x00001b84                u8x8_DrawTile
+ .text.u8x8_SetupMemory
+                0x00001bca       0x16 Libs/U8g2/u8x8_display.o
+                0x00001bca                u8x8_SetupMemory
+ .text.u8x8_InitDisplay
+                0x00001be0       0x16 Libs/U8g2/u8x8_display.o
+                0x00001be0                u8x8_InitDisplay
+ .text.u8x8_SetPowerSave
+                0x00001bf6       0x16 Libs/U8g2/u8x8_display.o
+                0x00001bf6                u8x8_SetPowerSave
+ .text.u8x8_RefreshDisplay
+                0x00001c0c       0x16 Libs/U8g2/u8x8_display.o
+                0x00001c0c                u8x8_RefreshDisplay
+ .text.u8x8_d_ssd1306_sh1106_generic
+                0x00001c22      0x112 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .text.u8x8_d_ssd1306_128x64_noname
+                0x00001d34       0x46 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+                0x00001d34                u8x8_d_ssd1306_128x64_noname
+ .text.u8x8_gpio_call
+                0x00001d7a       0x12 Libs/U8g2/u8x8_gpio.o
+                0x00001d7a                u8x8_gpio_call
+ .text.u8x8_dummy_cb
+                0x00001d8c        0x4 Libs/U8g2/u8x8_setup.o
+                0x00001d8c                u8x8_dummy_cb
+ .text.u8x8_SetupDefaults
+                0x00001d90       0x30 Libs/U8g2/u8x8_setup.o
+                0x00001d90                u8x8_SetupDefaults
+ .text.u8x8_Setup
+                0x00001dc0       0x4c Libs/U8g2/u8x8_setup.o
+                0x00001dc0                u8x8_Setup
+ .text.main     0x00001e0c       0x68 main.o
+                0x00001e0c                main
+ .text.__vector_13
+                0x00001e74       0x60 System/Interrupts.o
+                0x00001e74                __vector_13
+ .text.Task_Init
+                0x00001ed4       0x12 System/Task.o
+                0x00001ed4                Task_Init
+ .text.Task_10ms
+                0x00001ee6        0x2 System/Task.o
+                0x00001ee6                Task_10ms
+ .text.Task_100ms
+                0x00001ee8       0x1e System/Task.o
+                0x00001ee8                Task_100ms
+ .text.Task_1s  0x00001f06        0x2 System/Task.o
+                0x00001f06                Task_1s
+ .text.Task_Idle
+                0x00001f08        0x4 System/Task.o
+                0x00001f08                Task_Idle
+ .text.Init_Timer
+                0x00001f0c       0x30 System/Time.o
+                0x00001f0c                Init_Timer
+ .text.UpdateTimer
+                0x00001f3c       0x7e System/Time.o
+                0x00001f3c                UpdateTimer
  .text.libgcc.div
-                0x00001d82       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00001d82                __udivmodsi4
+                0x00001fba       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001fba                __udivmodsi4
  .text.libgcc.mul
-                0x00001dc6       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00001dc6                __umulhisi3
+                0x00001ffe       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001ffe                __umulhisi3
  .text.avr-libc
-                0x00001de4        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
-                0x00001de4                memset
-                0x00001df2                . = ALIGN (0x2)
+                0x0000201c        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x0000201c                memset
+ .text.avr-libc
+                0x0000202a       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x0000202a                sprintf
+ .text.avr-libc
+                0x0000206e      0x3c2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x0000206e                vfprintf
+ .text.avr-libc
+                0x00002430       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00002430                strnlen_P
+ .text.avr-libc
+                0x00002446       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00002446                strnlen
+ .text.avr-libc
+                0x0000245c       0x78 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x0000245c                fputc
+ .text.avr-libc
+                0x000024d4       0xbc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x000024d4                __ultoa_invert
+ .text.libgcc.prologue
+                0x00002590       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00002590                __prologue_saves__
+ .text.libgcc.prologue
+                0x000025c8       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x000025c8                __epilogue_restores__
+                0x000025fe                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001df2        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00001df2                _exit
-                0x00001df2                exit
+ .fini9         0x000025fe        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000025fe                _exit
+                0x000025fe                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -7998,56 +8113,66 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00001df2        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000025fe        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00001df6                _etext = .
+                0x00002602                _etext = .
 
-.data           0x00800100       0x74 load address 0x00001df6
+.data           0x00800100       0x8c load address 0x00002602
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
- .rodata.u8g2_cb_r0
-                0x00800100        0x6 Libs/U8g2/u8g2_setup.o
-                0x00800100                u8g2_cb_r0
- .rodata.u8x8_ssd1306_128x64_noname_display_info
-                0x00800106       0x18 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .rodata.u8x8_d_ssd1306_128x64_noname_flip1_seq
-                0x0080011e        0x7 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .rodata.u8x8_d_ssd1306_128x64_noname_flip0_seq
-                0x00800125        0x7 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .rodata.u8x8_d_ssd1306_128x64_noname_powersave1_seq
-                0x0080012c        0x5 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .rodata.u8x8_d_ssd1306_128x64_noname_powersave0_seq
-                0x00800131        0x5 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .rodata.u8x8_d_ssd1306_128x64_noname_init_seq
-                0x00800136       0x35 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
  .rodata.str1.1
-                0x0080016b        0x9 main.o
+                0x00800100       0x20 Display/OLED_Screen.o
+ .rodata.u8g2_cb_r0
+                0x00800120        0x6 Libs/U8g2/u8g2_setup.o
+                0x00800120                u8g2_cb_r0
+ .rodata.u8x8_ssd1306_128x64_noname_display_info
+                0x00800126       0x18 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .rodata.u8x8_d_ssd1306_128x64_noname_flip1_seq
+                0x0080013e        0x7 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .rodata.u8x8_d_ssd1306_128x64_noname_flip0_seq
+                0x00800145        0x7 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .rodata.u8x8_d_ssd1306_128x64_noname_powersave1_seq
+                0x0080014c        0x5 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .rodata.u8x8_d_ssd1306_128x64_noname_powersave0_seq
+                0x00800151        0x5 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .rodata.u8x8_d_ssd1306_128x64_noname_init_seq
+                0x00800156       0x35 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
  *(.gnu.linkonce.r*)
-                0x00800174                . = ALIGN (0x2)
-                0x00800174                _edata = .
-                0x00800174                PROVIDE (__data_end, .)
+                0x0080018c                . = ALIGN (0x2)
+ *fill*         0x0080018b        0x1 
+                0x0080018c                _edata = .
+                0x0080018c                PROVIDE (__data_end, .)
 
-.bss            0x00800174      0x466
-                0x00800174                PROVIDE (__bss_start, .)
+.bss            0x0080018c      0x496
+                0x0080018c                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.buf.8107  0x00800174      0x400 Libs/U8g2/u8g2_d_memory.o
+ .bss.buf.8107  0x0080018c      0x400 Libs/U8g2/u8g2_d_memory.o
  *(COMMON)
- COMMON         0x00800574       0x66 main.o
-                0x00800574                u8g2
-                0x008005da                PROVIDE (__bss_end, .)
-                0x00001df6                __data_load_start = LOADADDR (.data)
-                0x00001e6a                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x0080058c       0x24 Display/OLED_Screen.o
+                0x0080058c                buff
+                0x0080059c                buff_cnt
+ COMMON         0x008005b0       0x66 Display/OLED.o
+                0x008005b0                u8g2
+ COMMON         0x00800616        0x4 System/Interrupts.o
+                0x00800616                cnt
+ COMMON         0x0080061a        0x1 System/Task.o
+                0x0080061a                taskIsActive
+ COMMON         0x0080061b        0x7 System/Time.o
+                0x0080061b                timer
+                0x00800622                PROVIDE (__bss_end, .)
+                0x00002602                __data_load_start = LOADADDR (.data)
+                0x0000268e                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008005da        0x0
+.noinit         0x00800622        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008005da                _end = .
+                0x00800622                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -8087,10 +8212,11 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x00000000       0x30
+.comment        0x00000000       0x5c
  *(.comment)
- .comment       0x00000000       0x30 Init.o
+ .comment       0x00000000       0x30 Display/OLED_Screen.o
                                  0x31 (size before relaxing)
+ .comment       0x00000030       0x31 Display/OLED.o
  .comment       0x00000030       0x31 Libs/U8g2/u8g2_buffer.o
  .comment       0x00000030       0x31 Libs/U8g2/u8g2_d_memory.o
  .comment       0x00000030       0x31 Libs/U8g2/u8g2_d_setup.o
@@ -8108,7 +8234,13 @@ END GROUP
  .comment       0x00000030       0x31 Libs/U8g2/u8x8_gpio.o
  .comment       0x00000030       0x31 Libs/U8g2/u8x8_setup.o
  .comment       0x00000030       0x31 main.o
- .comment       0x00000030       0x31 OLED.o
+ .comment       0x00000030       0x31 System/Interrupts.o
+ .comment       0x00000030       0x31 System/Task.o
+ .comment       0x00000030       0x31 System/Time.o
+ .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .comment       0x00000030       0x2c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x0000005c       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x40
@@ -8130,200 +8262,227 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000     0x1d58
+.debug_aranges  0x00000000     0x1dd8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x30 Init.o
+                0x00000000       0x20 Display/OLED_Screen.o
  .debug_aranges
-                0x00000030       0x78 Libs/U8g2/u8g2_buffer.o
+                0x00000020       0x30 Display/OLED.o
  .debug_aranges
-                0x000000a8      0x420 Libs/U8g2/u8g2_d_memory.o
+                0x00000050       0x78 Libs/U8g2/u8g2_buffer.o
  .debug_aranges
-                0x000004c8     0x1200 Libs/U8g2/u8g2_d_setup.o
+                0x000000c8      0x420 Libs/U8g2/u8g2_d_memory.o
  .debug_aranges
-                0x000016c8      0x190 Libs/U8g2/u8g2_font.o
+                0x000004e8     0x1200 Libs/U8g2/u8g2_d_setup.o
  .debug_aranges
-                0x00001858       0x18 Libs/U8g2/u8g2_fonts.o
+                0x000016e8      0x190 Libs/U8g2/u8g2_font.o
  .debug_aranges
-                0x00001870       0x48 Libs/U8g2/u8g2_hvline.o
+                0x00001878       0x18 Libs/U8g2/u8g2_fonts.o
  .debug_aranges
-                0x000018b8       0x28 Libs/U8g2/u8g2_intersection.o
+                0x00001890       0x48 Libs/U8g2/u8g2_hvline.o
  .debug_aranges
-                0x000018e0       0x28 Libs/U8g2/u8g2_ll_hvline.o
+                0x000018d8       0x28 Libs/U8g2/u8g2_intersection.o
  .debug_aranges
-                0x00001908       0xb8 Libs/U8g2/u8g2_setup.o
+                0x00001900       0x28 Libs/U8g2/u8g2_ll_hvline.o
  .debug_aranges
-                0x000019c0       0xb8 Libs/U8g2/u8x8_8x8.o
+                0x00001928       0xb8 Libs/U8g2/u8g2_setup.o
  .debug_aranges
-                0x00001a78       0xb0 Libs/U8g2/u8x8_byte.o
+                0x000019e0       0xb8 Libs/U8g2/u8x8_8x8.o
  .debug_aranges
-                0x00001b28       0xc0 Libs/U8g2/u8x8_cad.o
+                0x00001a98       0xb0 Libs/U8g2/u8x8_byte.o
  .debug_aranges
-                0x00001be8       0x80 Libs/U8g2/u8x8_display.o
+                0x00001b48       0xc0 Libs/U8g2/u8x8_cad.o
  .debug_aranges
-                0x00001c68       0x50 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+                0x00001c08       0x80 Libs/U8g2/u8x8_display.o
  .debug_aranges
-                0x00001cb8       0x20 Libs/U8g2/u8x8_gpio.o
+                0x00001c88       0x50 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
  .debug_aranges
-                0x00001cd8       0x38 Libs/U8g2/u8x8_setup.o
+                0x00001cd8       0x20 Libs/U8g2/u8x8_gpio.o
  .debug_aranges
-                0x00001d10       0x20 main.o
+                0x00001cf8       0x38 Libs/U8g2/u8x8_setup.o
  .debug_aranges
-                0x00001d30       0x28 OLED.o
+                0x00001d30       0x20 main.o
+ .debug_aranges
+                0x00001d50       0x20 System/Interrupts.o
+ .debug_aranges
+                0x00001d70       0x40 System/Task.o
+ .debug_aranges
+                0x00001db0       0x28 System/Time.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x3f16e
+.debug_info     0x00000000    0x3fc8e
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0x90f Init.o
- .debug_info    0x00000f03      0xea2 Libs/U8g2/u8g2_buffer.o
- .debug_info    0x00001da5     0x257e Libs/U8g2/u8g2_d_memory.o
- .debug_info    0x00004323    0x20d07 Libs/U8g2/u8g2_d_setup.o
- .debug_info    0x0002502a     0x29e8 Libs/U8g2/u8g2_font.o
- .debug_info    0x00027a12     0xd1ce Libs/U8g2/u8g2_fonts.o
- .debug_info    0x00034be0      0xc00 Libs/U8g2/u8g2_hvline.o
- .debug_info    0x000357e0      0x938 Libs/U8g2/u8g2_intersection.o
- .debug_info    0x00036118      0x9b5 Libs/U8g2/u8g2_ll_hvline.o
- .debug_info    0x00036acd     0x1118 Libs/U8g2/u8g2_setup.o
- .debug_info    0x00037be5     0x1384 Libs/U8g2/u8x8_8x8.o
- .debug_info    0x00038f69     0x1a58 Libs/U8g2/u8x8_byte.o
- .debug_info    0x0003a9c1     0x1909 Libs/U8g2/u8x8_cad.o
- .debug_info    0x0003c2ca      0x9b5 Libs/U8g2/u8x8_display.o
- .debug_info    0x0003cc7f      0xd1e Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .debug_info    0x0003d99d      0x3d5 Libs/U8g2/u8x8_gpio.o
- .debug_info    0x0003dd72      0x53a Libs/U8g2/u8x8_setup.o
- .debug_info    0x0003e2ac      0x977 main.o
- .debug_info    0x0003ec23      0x54b OLED.o
+ .debug_info    0x000005f4      0xa3f Display/OLED_Screen.o
+ .debug_info    0x00001033      0xb0a Display/OLED.o
+ .debug_info    0x00001b3d      0xea2 Libs/U8g2/u8g2_buffer.o
+ .debug_info    0x000029df     0x257e Libs/U8g2/u8g2_d_memory.o
+ .debug_info    0x00004f5d    0x20d07 Libs/U8g2/u8g2_d_setup.o
+ .debug_info    0x00025c64     0x29e8 Libs/U8g2/u8g2_font.o
+ .debug_info    0x0002864c     0xd1ce Libs/U8g2/u8g2_fonts.o
+ .debug_info    0x0003581a      0xc00 Libs/U8g2/u8g2_hvline.o
+ .debug_info    0x0003641a      0x938 Libs/U8g2/u8g2_intersection.o
+ .debug_info    0x00036d52      0x9b5 Libs/U8g2/u8g2_ll_hvline.o
+ .debug_info    0x00037707     0x1118 Libs/U8g2/u8g2_setup.o
+ .debug_info    0x0003881f     0x1384 Libs/U8g2/u8x8_8x8.o
+ .debug_info    0x00039ba3     0x1a58 Libs/U8g2/u8x8_byte.o
+ .debug_info    0x0003b5fb     0x1909 Libs/U8g2/u8x8_cad.o
+ .debug_info    0x0003cf04      0x9b5 Libs/U8g2/u8x8_display.o
+ .debug_info    0x0003d8b9      0xd1e Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_info    0x0003e5d7      0x3d5 Libs/U8g2/u8x8_gpio.o
+ .debug_info    0x0003e9ac      0x53a Libs/U8g2/u8x8_setup.o
+ .debug_info    0x0003eee6      0x153 main.o
+ .debug_info    0x0003f039      0x103 System/Interrupts.o
+ .debug_info    0x0003f13c      0x9f8 System/Task.o
+ .debug_info    0x0003fb34      0x15a System/Time.o
 
-.debug_abbrev   0x00000000     0x27f5
+.debug_abbrev   0x00000000     0x2ab1
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x15a Init.o
- .debug_abbrev  0x000006fc      0x230 Libs/U8g2/u8g2_buffer.o
- .debug_abbrev  0x0000092c       0xd8 Libs/U8g2/u8g2_d_memory.o
- .debug_abbrev  0x00000a04      0x196 Libs/U8g2/u8g2_d_setup.o
- .debug_abbrev  0x00000b9a      0x402 Libs/U8g2/u8g2_font.o
- .debug_abbrev  0x00000f9c       0x88 Libs/U8g2/u8g2_fonts.o
- .debug_abbrev  0x00001024      0x1aa Libs/U8g2/u8g2_hvline.o
- .debug_abbrev  0x000011ce      0x159 Libs/U8g2/u8g2_intersection.o
- .debug_abbrev  0x00001327      0x14f Libs/U8g2/u8g2_ll_hvline.o
- .debug_abbrev  0x00001476      0x25a Libs/U8g2/u8g2_setup.o
- .debug_abbrev  0x000016d0      0x367 Libs/U8g2/u8x8_8x8.o
- .debug_abbrev  0x00001a37      0x263 Libs/U8g2/u8x8_byte.o
- .debug_abbrev  0x00001c9a      0x25c Libs/U8g2/u8x8_cad.o
- .debug_abbrev  0x00001ef6      0x1bf Libs/U8g2/u8x8_display.o
- .debug_abbrev  0x000020b5      0x19f Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .debug_abbrev  0x00002254       0xe9 Libs/U8g2/u8x8_gpio.o
- .debug_abbrev  0x0000233d      0x17a Libs/U8g2/u8x8_setup.o
- .debug_abbrev  0x000024b7      0x174 main.o
- .debug_abbrev  0x0000262b      0x1ca OLED.o
+ .debug_abbrev  0x000005a2      0x17d Display/OLED_Screen.o
+ .debug_abbrev  0x0000071f      0x25b Display/OLED.o
+ .debug_abbrev  0x0000097a      0x230 Libs/U8g2/u8g2_buffer.o
+ .debug_abbrev  0x00000baa       0xd8 Libs/U8g2/u8g2_d_memory.o
+ .debug_abbrev  0x00000c82      0x196 Libs/U8g2/u8g2_d_setup.o
+ .debug_abbrev  0x00000e18      0x402 Libs/U8g2/u8g2_font.o
+ .debug_abbrev  0x0000121a       0x88 Libs/U8g2/u8g2_fonts.o
+ .debug_abbrev  0x000012a2      0x1aa Libs/U8g2/u8g2_hvline.o
+ .debug_abbrev  0x0000144c      0x159 Libs/U8g2/u8g2_intersection.o
+ .debug_abbrev  0x000015a5      0x14f Libs/U8g2/u8g2_ll_hvline.o
+ .debug_abbrev  0x000016f4      0x25a Libs/U8g2/u8g2_setup.o
+ .debug_abbrev  0x0000194e      0x367 Libs/U8g2/u8x8_8x8.o
+ .debug_abbrev  0x00001cb5      0x263 Libs/U8g2/u8x8_byte.o
+ .debug_abbrev  0x00001f18      0x25c Libs/U8g2/u8x8_cad.o
+ .debug_abbrev  0x00002174      0x1bf Libs/U8g2/u8x8_display.o
+ .debug_abbrev  0x00002333      0x19f Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_abbrev  0x000024d2       0xe9 Libs/U8g2/u8x8_gpio.o
+ .debug_abbrev  0x000025bb      0x17a Libs/U8g2/u8x8_setup.o
+ .debug_abbrev  0x00002735       0xaa main.o
+ .debug_abbrev  0x000027df       0x97 System/Interrupts.o
+ .debug_abbrev  0x00002876      0x169 System/Task.o
+ .debug_abbrev  0x000029df       0xd2 System/Time.o
 
-.debug_line     0x00000000     0xae91
+.debug_line     0x00000000     0xb215
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x133 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000133       0xf4 Init.o
- .debug_line    0x00000227      0x371 Libs/U8g2/u8g2_buffer.o
- .debug_line    0x00000598      0xf31 Libs/U8g2/u8g2_d_memory.o
- .debug_line    0x000014c9     0x5c6b Libs/U8g2/u8g2_d_setup.o
- .debug_line    0x00007134      0xd8a Libs/U8g2/u8g2_font.o
- .debug_line    0x00007ebe       0x99 Libs/U8g2/u8g2_fonts.o
- .debug_line    0x00007f57      0x238 Libs/U8g2/u8g2_hvline.o
- .debug_line    0x0000818f      0x112 Libs/U8g2/u8g2_intersection.o
- .debug_line    0x000082a1      0x23b Libs/U8g2/u8g2_ll_hvline.o
- .debug_line    0x000084dc      0x517 Libs/U8g2/u8g2_setup.o
- .debug_line    0x000089f3      0x6a1 Libs/U8g2/u8x8_8x8.o
- .debug_line    0x00009094      0x8c0 Libs/U8g2/u8x8_byte.o
- .debug_line    0x00009954      0x98e Libs/U8g2/u8x8_cad.o
- .debug_line    0x0000a2e2      0x2a1 Libs/U8g2/u8x8_display.o
- .debug_line    0x0000a583      0x396 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .debug_line    0x0000a919       0xb8 Libs/U8g2/u8x8_gpio.o
- .debug_line    0x0000a9d1      0x176 Libs/U8g2/u8x8_setup.o
- .debug_line    0x0000ab47       0xf4 main.o
- .debug_line    0x0000ac3b      0x256 OLED.o
+ .debug_line    0x00000133      0x11e Display/OLED_Screen.o
+ .debug_line    0x00000251      0x28f Display/OLED.o
+ .debug_line    0x000004e0      0x371 Libs/U8g2/u8g2_buffer.o
+ .debug_line    0x00000851      0xf31 Libs/U8g2/u8g2_d_memory.o
+ .debug_line    0x00001782     0x5c6b Libs/U8g2/u8g2_d_setup.o
+ .debug_line    0x000073ed      0xd8a Libs/U8g2/u8g2_font.o
+ .debug_line    0x00008177       0x99 Libs/U8g2/u8g2_fonts.o
+ .debug_line    0x00008210      0x238 Libs/U8g2/u8g2_hvline.o
+ .debug_line    0x00008448      0x112 Libs/U8g2/u8g2_intersection.o
+ .debug_line    0x0000855a      0x23b Libs/U8g2/u8g2_ll_hvline.o
+ .debug_line    0x00008795      0x517 Libs/U8g2/u8g2_setup.o
+ .debug_line    0x00008cac      0x6a1 Libs/U8g2/u8x8_8x8.o
+ .debug_line    0x0000934d      0x8c0 Libs/U8g2/u8x8_byte.o
+ .debug_line    0x00009c0d      0x98e Libs/U8g2/u8x8_cad.o
+ .debug_line    0x0000a59b      0x2a1 Libs/U8g2/u8x8_display.o
+ .debug_line    0x0000a83c      0x396 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_line    0x0000abd2       0xb8 Libs/U8g2/u8x8_gpio.o
+ .debug_line    0x0000ac8a      0x176 Libs/U8g2/u8x8_setup.o
+ .debug_line    0x0000ae00       0xf7 main.o
+ .debug_line    0x0000aef7       0xc8 System/Interrupts.o
+ .debug_line    0x0000afbf      0x148 System/Task.o
+ .debug_line    0x0000b107      0x10e System/Time.o
 
-.debug_frame    0x00000000     0xaf08
+.debug_frame    0x00000000     0xb05c
  *(.debug_frame)
- .debug_frame   0x00000000       0x44 Init.o
- .debug_frame   0x00000044      0x1c8 Libs/U8g2/u8g2_buffer.o
- .debug_frame   0x0000020c      0x824 Libs/U8g2/u8g2_d_memory.o
- .debug_frame   0x00000a30     0x8f54 Libs/U8g2/u8g2_d_setup.o
- .debug_frame   0x00009984      0x5c4 Libs/U8g2/u8g2_font.o
- .debug_frame   0x00009f48       0x9c Libs/U8g2/u8g2_hvline.o
- .debug_frame   0x00009fe4       0x50 Libs/U8g2/u8g2_intersection.o
- .debug_frame   0x0000a034       0x60 Libs/U8g2/u8g2_ll_hvline.o
- .debug_frame   0x0000a094      0x1ec Libs/U8g2/u8g2_setup.o
- .debug_frame   0x0000a280      0x300 Libs/U8g2/u8x8_8x8.o
- .debug_frame   0x0000a580      0x2c0 Libs/U8g2/u8x8_byte.o
- .debug_frame   0x0000a840      0x340 Libs/U8g2/u8x8_cad.o
- .debug_frame   0x0000ab80      0x174 Libs/U8g2/u8x8_display.o
- .debug_frame   0x0000acf4      0x104 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .debug_frame   0x0000adf8       0x24 Libs/U8g2/u8x8_gpio.o
- .debug_frame   0x0000ae1c       0x88 Libs/U8g2/u8x8_setup.o
- .debug_frame   0x0000aea4       0x24 main.o
- .debug_frame   0x0000aec8       0x40 OLED.o
+ .debug_frame   0x00000000       0x6c Display/OLED_Screen.o
+ .debug_frame   0x0000006c       0x5c Display/OLED.o
+ .debug_frame   0x000000c8      0x1c8 Libs/U8g2/u8g2_buffer.o
+ .debug_frame   0x00000290      0x824 Libs/U8g2/u8g2_d_memory.o
+ .debug_frame   0x00000ab4     0x8f54 Libs/U8g2/u8g2_d_setup.o
+ .debug_frame   0x00009a08      0x5c4 Libs/U8g2/u8g2_font.o
+ .debug_frame   0x00009fcc       0x9c Libs/U8g2/u8g2_hvline.o
+ .debug_frame   0x0000a068       0x50 Libs/U8g2/u8g2_intersection.o
+ .debug_frame   0x0000a0b8       0x60 Libs/U8g2/u8g2_ll_hvline.o
+ .debug_frame   0x0000a118      0x1ec Libs/U8g2/u8g2_setup.o
+ .debug_frame   0x0000a304      0x300 Libs/U8g2/u8x8_8x8.o
+ .debug_frame   0x0000a604      0x2c0 Libs/U8g2/u8x8_byte.o
+ .debug_frame   0x0000a8c4      0x340 Libs/U8g2/u8x8_cad.o
+ .debug_frame   0x0000ac04      0x174 Libs/U8g2/u8x8_display.o
+ .debug_frame   0x0000ad78      0x104 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_frame   0x0000ae7c       0x24 Libs/U8g2/u8x8_gpio.o
+ .debug_frame   0x0000aea0       0x88 Libs/U8g2/u8x8_setup.o
+ .debug_frame   0x0000af28       0x24 main.o
+ .debug_frame   0x0000af4c       0x44 System/Interrupts.o
+ .debug_frame   0x0000af90       0x64 System/Task.o
+ .debug_frame   0x0000aff4       0x68 System/Time.o
 
-.debug_str      0x00000000     0xec0c
+.debug_str      0x00000000     0xed13
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.3.300/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x80f Init.o
-                                0x8a9 (size before relaxing)
- .debug_str     0x00000a17      0x1fc Libs/U8g2/u8g2_buffer.o
+ .debug_str     0x00000208      0x864 Display/OLED_Screen.o
+                                0x903 (size before relaxing)
+ .debug_str     0x00000a6c       0xf5 Display/OLED.o
+                                0x92b (size before relaxing)
+ .debug_str     0x00000b61      0x1db Libs/U8g2/u8g2_buffer.o
                                 0xa37 (size before relaxing)
- .debug_str     0x00000c13      0x767 Libs/U8g2/u8g2_d_memory.o
+ .debug_str     0x00000d3c      0x75e Libs/U8g2/u8g2_d_memory.o
                                 0x8ba (size before relaxing)
- .debug_str     0x0000137a     0x47c1 Libs/U8g2/u8g2_d_setup.o
+ .debug_str     0x0000149a     0x47c1 Libs/U8g2/u8g2_d_setup.o
                                0x574b (size before relaxing)
- .debug_str     0x00005b3b      0x5bb Libs/U8g2/u8g2_font.o
+ .debug_str     0x00005c5b      0x5a1 Libs/U8g2/u8g2_font.o
                                 0xe26 (size before relaxing)
- .debug_str     0x000060f6     0x7d99 Libs/U8g2/u8g2_fonts.o
+ .debug_str     0x000061fc     0x7d84 Libs/U8g2/u8g2_fonts.o
                                0x7ef5 (size before relaxing)
- .debug_str     0x0000de8f       0x89 Libs/U8g2/u8g2_hvline.o
+ .debug_str     0x0000df80       0x89 Libs/U8g2/u8g2_hvline.o
                                 0x8ce (size before relaxing)
- .debug_str     0x0000df18       0x44 Libs/U8g2/u8g2_intersection.o
+ .debug_str     0x0000e009       0x44 Libs/U8g2/u8g2_intersection.o
                                 0x887 (size before relaxing)
- .debug_str     0x0000df5c       0x6b Libs/U8g2/u8g2_ll_hvline.o
+ .debug_str     0x0000e04d       0x6b Libs/U8g2/u8g2_ll_hvline.o
                                 0x8b6 (size before relaxing)
- .debug_str     0x0000dfc7      0x1f8 Libs/U8g2/u8g2_setup.o
+ .debug_str     0x0000e0b8      0x1f8 Libs/U8g2/u8g2_setup.o
                                 0xab0 (size before relaxing)
- .debug_str     0x0000e1bf      0x1c7 Libs/U8g2/u8x8_8x8.o
+ .debug_str     0x0000e2b0      0x1c7 Libs/U8g2/u8x8_8x8.o
                                 0x623 (size before relaxing)
- .debug_str     0x0000e386      0x20c Libs/U8g2/u8x8_byte.o
+ .debug_str     0x0000e477      0x1fc Libs/U8g2/u8x8_byte.o
                                 0x63c (size before relaxing)
- .debug_str     0x0000e592      0x1d1 Libs/U8g2/u8x8_cad.o
+ .debug_str     0x0000e673      0x1d1 Libs/U8g2/u8x8_cad.o
                                 0x688 (size before relaxing)
- .debug_str     0x0000e763      0x11b Libs/U8g2/u8x8_display.o
+ .debug_str     0x0000e844      0x11b Libs/U8g2/u8x8_display.o
                                 0x59f (size before relaxing)
- .debug_str     0x0000e87e      0x27f Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_str     0x0000e95f      0x27f Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
                                 0x796 (size before relaxing)
- .debug_str     0x0000eafd       0x19 Libs/U8g2/u8x8_gpio.o
+ .debug_str     0x0000ebde       0x19 Libs/U8g2/u8x8_gpio.o
                                 0x440 (size before relaxing)
- .debug_str     0x0000eb16       0x61 Libs/U8g2/u8x8_setup.o
+ .debug_str     0x0000ebf7       0x61 Libs/U8g2/u8x8_setup.o
                                 0x4e3 (size before relaxing)
- .debug_str     0x0000eb77       0x11 main.o
-                                0x89a (size before relaxing)
- .debug_str     0x0000eb88       0x84 OLED.o
-                                0x4b3 (size before relaxing)
+ .debug_str     0x0000ec58       0x5f main.o
+                                0x1b2 (size before relaxing)
+ .debug_str     0x0000ecb7       0x23 System/Interrupts.o
+                                0x1c2 (size before relaxing)
+ .debug_str     0x0000ecda       0x28 System/Task.o
+                                0x8f6 (size before relaxing)
+ .debug_str     0x0000ed02       0x11 System/Time.o
+                                0x1c5 (size before relaxing)
 
-.debug_loc      0x00000000    0x456c4
+.debug_loc      0x00000000    0x4598b
  *(.debug_loc)
- .debug_loc     0x00000000      0x910 Libs/U8g2/u8g2_buffer.o
- .debug_loc     0x00000910     0x1428 Libs/U8g2/u8g2_d_memory.o
- .debug_loc     0x00001d38    0x38cbe Libs/U8g2/u8g2_d_setup.o
- .debug_loc     0x0003a9f6     0x2e78 Libs/U8g2/u8g2_font.o
- .debug_loc     0x0003d86e      0x69d Libs/U8g2/u8g2_hvline.o
- .debug_loc     0x0003df0b      0x192 Libs/U8g2/u8g2_intersection.o
- .debug_loc     0x0003e09d      0x4b3 Libs/U8g2/u8g2_ll_hvline.o
- .debug_loc     0x0003e550      0xce8 Libs/U8g2/u8g2_setup.o
- .debug_loc     0x0003f238     0x187d Libs/U8g2/u8x8_8x8.o
- .debug_loc     0x00040ab5     0x1b9a Libs/U8g2/u8x8_byte.o
- .debug_loc     0x0004264f     0x1c7b Libs/U8g2/u8x8_cad.o
- .debug_loc     0x000442ca      0x588 Libs/U8g2/u8x8_display.o
- .debug_loc     0x00044852      0x7c1 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .debug_loc     0x00045013       0x68 Libs/U8g2/u8x8_gpio.o
- .debug_loc     0x0004507b      0x2df Libs/U8g2/u8x8_setup.o
- .debug_loc     0x0004535a      0x36a OLED.o
+ .debug_loc     0x00000000      0x140 Display/OLED_Screen.o
+ .debug_loc     0x00000140      0x3cf Display/OLED.o
+ .debug_loc     0x0000050f      0x910 Libs/U8g2/u8g2_buffer.o
+ .debug_loc     0x00000e1f     0x1428 Libs/U8g2/u8g2_d_memory.o
+ .debug_loc     0x00002247    0x38cbe Libs/U8g2/u8g2_d_setup.o
+ .debug_loc     0x0003af05     0x2e78 Libs/U8g2/u8g2_font.o
+ .debug_loc     0x0003dd7d      0x69d Libs/U8g2/u8g2_hvline.o
+ .debug_loc     0x0003e41a      0x192 Libs/U8g2/u8g2_intersection.o
+ .debug_loc     0x0003e5ac      0x4b3 Libs/U8g2/u8g2_ll_hvline.o
+ .debug_loc     0x0003ea5f      0xce8 Libs/U8g2/u8g2_setup.o
+ .debug_loc     0x0003f747     0x187d Libs/U8g2/u8x8_8x8.o
+ .debug_loc     0x00040fc4     0x1b9a Libs/U8g2/u8x8_byte.o
+ .debug_loc     0x00042b5e     0x1c7b Libs/U8g2/u8x8_cad.o
+ .debug_loc     0x000447d9      0x588 Libs/U8g2/u8x8_display.o
+ .debug_loc     0x00044d61      0x7c1 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_loc     0x00045522       0x68 Libs/U8g2/u8x8_gpio.o
+ .debug_loc     0x0004558a      0x2df Libs/U8g2/u8x8_setup.o
+ .debug_loc     0x00045869       0x63 System/Interrupts.o
+ .debug_loc     0x000458cc       0xbf System/Time.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -8343,26 +8502,29 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000     0x1d48
+.debug_ranges   0x00000000     0x1d98
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x20 Init.o
- .debug_ranges  0x00000020       0x68 Libs/U8g2/u8g2_buffer.o
- .debug_ranges  0x00000088      0x410 Libs/U8g2/u8g2_d_memory.o
- .debug_ranges  0x00000498     0x11f0 Libs/U8g2/u8g2_d_setup.o
- .debug_ranges  0x00001688      0x240 Libs/U8g2/u8g2_font.o
- .debug_ranges  0x000018c8       0x38 Libs/U8g2/u8g2_hvline.o
- .debug_ranges  0x00001900       0x18 Libs/U8g2/u8g2_intersection.o
- .debug_ranges  0x00001918       0x18 Libs/U8g2/u8g2_ll_hvline.o
- .debug_ranges  0x00001930       0xa8 Libs/U8g2/u8g2_setup.o
- .debug_ranges  0x000019d8       0xd8 Libs/U8g2/u8x8_8x8.o
- .debug_ranges  0x00001ab0       0xa0 Libs/U8g2/u8x8_byte.o
- .debug_ranges  0x00001b50       0xb0 Libs/U8g2/u8x8_cad.o
- .debug_ranges  0x00001c00       0x70 Libs/U8g2/u8x8_display.o
- .debug_ranges  0x00001c70       0x40 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
- .debug_ranges  0x00001cb0       0x10 Libs/U8g2/u8x8_gpio.o
- .debug_ranges  0x00001cc0       0x28 Libs/U8g2/u8x8_setup.o
- .debug_ranges  0x00001ce8       0x10 main.o
- .debug_ranges  0x00001cf8       0x50 OLED.o
+ .debug_ranges  0x00000000       0x10 Display/OLED_Screen.o
+ .debug_ranges  0x00000010       0x58 Display/OLED.o
+ .debug_ranges  0x00000068       0x68 Libs/U8g2/u8g2_buffer.o
+ .debug_ranges  0x000000d0      0x410 Libs/U8g2/u8g2_d_memory.o
+ .debug_ranges  0x000004e0     0x11f0 Libs/U8g2/u8g2_d_setup.o
+ .debug_ranges  0x000016d0      0x240 Libs/U8g2/u8g2_font.o
+ .debug_ranges  0x00001910       0x38 Libs/U8g2/u8g2_hvline.o
+ .debug_ranges  0x00001948       0x18 Libs/U8g2/u8g2_intersection.o
+ .debug_ranges  0x00001960       0x18 Libs/U8g2/u8g2_ll_hvline.o
+ .debug_ranges  0x00001978       0xa8 Libs/U8g2/u8g2_setup.o
+ .debug_ranges  0x00001a20       0xd8 Libs/U8g2/u8x8_8x8.o
+ .debug_ranges  0x00001af8       0xa0 Libs/U8g2/u8x8_byte.o
+ .debug_ranges  0x00001b98       0xb0 Libs/U8g2/u8x8_cad.o
+ .debug_ranges  0x00001c48       0x70 Libs/U8g2/u8x8_display.o
+ .debug_ranges  0x00001cb8       0x40 Libs/U8g2/u8x8_d_ssd1306_128x64_noname.o
+ .debug_ranges  0x00001cf8       0x10 Libs/U8g2/u8x8_gpio.o
+ .debug_ranges  0x00001d08       0x28 Libs/U8g2/u8x8_setup.o
+ .debug_ranges  0x00001d30       0x10 main.o
+ .debug_ranges  0x00001d40       0x10 System/Interrupts.o
+ .debug_ranges  0x00001d50       0x30 System/Task.o
+ .debug_ranges  0x00001d80       0x18 System/Time.o
 
 .debug_macro
  *(.debug_macro)
