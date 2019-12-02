@@ -1,1 +1,7 @@
 .vs
+
+# builds
+*.o
+*.d
+*.lss
+*.srec

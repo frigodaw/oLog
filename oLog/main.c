@@ -9,7 +9,7 @@
 #include "Task.h"
 #include "CommonTypes.h"
 
-extern task_t taskIsActive;
+extern uint8_t taskEnter;
 
 int main(void)
 {
@@ -19,25 +19,19 @@ int main(void)
     /* Main loop with simple scheduler */
     while (1) 
     {
-		if(TRUE == taskIsActive.Task_10ms)
-		{
-			Task_10ms();
-			taskIsActive.Task_10ms = FALSE;
-		}
-		
-		if(TRUE == taskIsActive.Task_100ms)
-		{
-			Task_100ms();
-			taskIsActive.Task_100ms = FALSE;
-		}
-		
-		if(TRUE == taskIsActive.Task_1s)
+		if(taskEnter & TASK_ENTER_1S)
 		{
 			Task_1s();
-			taskIsActive.Task_1s = FALSE;
+			taskEnter &= ~TASK_ENTER_1S;
 		}
-		
-		if(TIME_ENTER_IDLE_TASK == (taskIsActive.Task_10ms | taskIsActive.Task_100ms | taskIsActive.Task_1s))
+				
+		if(taskEnter & TASK_ENTER_100MS)
+		{
+			Task_100ms();
+			taskEnter &= ~TASK_ENTER_100MS;
+		}
+				
+		if(taskEnter & (TASK_ENTER_100MS | TASK_ENTER_1S))
 		{
 			Task_Idle();
 		}

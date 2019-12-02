@@ -10,21 +10,15 @@
 #define TASK_H_
 
 #include <avr/io.h>
+#include "Time.h"
 
-#define TIME_ENTER_IDLE_TASK  0u
+#define TASK_ENTER_100MS	1u
+#define TASK_ENTER_1S		2u
 
-
-/* Every timing task need to have its own pole in structure below */
-typedef struct task_tag
-{
-	uint8_t Task_10ms : 1;
-	uint8_t Task_100ms : 1;
-	uint8_t Task_1s : 1;
-}task_t;
+#define TASK_1S_CYCLES		((TIME_MS_IN_SEC)/(TIME_TIMER1_PERIOD_MS))	//number of timer1 (100ms) overflows to run task1
 
 
 void Task_Init(void);
-void Task_10ms(void);
 void Task_100ms(void);
 void Task_1s(void);
 void Task_Idle(void);
